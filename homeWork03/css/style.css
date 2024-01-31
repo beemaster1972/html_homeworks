@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.main {
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 1px solid #000;
+}
+
+.header {
+    border: 1px solid #0150E9;
+}
