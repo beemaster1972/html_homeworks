@@ -1,119 +1,117 @@
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.main {
-  background: rgb(255, 255, 255);
-}
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
 
-.menu_bar {
-  padding-top: 40px;
-  padding-left: 50px;
-}
+<body>
+    <div class="main">
+        <div class="menu_bar">
+            <span class="logo"><img src="./img/logo.png" alt="" />
+       Grow</span><span class="text-be">Be</span></span>
+            <span class="header">
+          <a href="#" class="menu-home">Home</a>
+          <a href="#" class="menu">AboutUs</a>
+          <a href="#" class="menu">Services</a>
+          <a href="#" class="menu">Features</a>
+          <a href="#" class="menu">Team</a>
+          <a href="#" class="menu">Blog</a>
+          <a href="#" class="menu">Contact</a>
+        </span>
+        </div>
+        <div class="home_meta">
+            <h1 class="title">SEO & Digital Marketing For Your Website.</h1>
+            <img src="./img/pngfind 1.png" alt="" class="meta_png">
+            <p class="home_content">Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.</p>
+            <div class="button_meta">
+                <button class="start_now" type="button">Start Now</button>
+                <span class="watch_video">Watch Video</span>
+            </div>
+        </div>
+    </div>
+    <div class="brand">
+        <img src="./img/liva.png" alt="" class="brand_1">
+        <img src="./img/kanba.png" alt="" class="brand_1">
+        <img src="./img/amara.png" alt="" class="brand_1">
+        <img src="./img/aven.png" alt="" class="brand_1">
+        <img src="./img/hexlab.png" alt="" class="brand_1">
+        <img src="./img/kanba.png" alt="" class="brand_2">
+    </div>
+</body>
 
-.header {
-  padding-top: 11.5px;
-  padding-left: 400px;
-  padding-bottom: 11.5px;
-
-  font-family: sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 10px;
-  word-spacing: 20px;
-  text-align: left;
-}
-
-.logo {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 49px;
-  font-family: sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1px;
-  letter-spacing: 0;
-  text-align: left;
-
-}
-
-.text-be {
-  padding-top: 5px;
-  padding-bottom: 5px;
-
-  font-family: sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  /*font-weight:900;*/
-  color: rgb(242, 88, 34);
+</html>    /*font-weight:900;*/
+    color: rgb(242, 88, 34);
 }
 
 .menu-home {
-  color: rgb(242, 88, 34);
-
+    color: rgb(242, 88, 34);
 }
 
 .title {
-  padding-left: 99px;
-  padding-right: 40.94px;
-  color: rgb(0, 0, 0);
-  font-family: sans-serif;
-  font-size: 60px;
-  font-weight: 400;
-  line-height: -1px;
-  letter-spacing: 0%;
-  text-align: left;
+    padding-left: 99px;
+    padding-right: 40.94px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .meta_png {
-  padding-left: 99px;
+    padding-left: 99px;
 }
 
 .home_content {
-  padding-left: 99px;
-  color: rgb(136, 136, 136);
-  font-family: sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: -1px;
-  letter-spacing: 0%;
-  text-align: left;
+    padding-left: 99px;
+    color: rgb(136, 136, 136);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .button_meta {
-  padding-top: 164px;
-  padding-left: 99px;
+    padding-top: 164px;
+    padding-left: 99px;
 }
 
 .start_now {
-  border-radius: 50px;
-  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
-  background: rgb(242, 88, 34);
-  color: rgb(255, 255, 255);
-  font-family: sans-serif;
-  font-size: 25px;
-  font-weight: 400;
-  line-height: -1px;
-  letter-spacing: 0%;
-  text-align: left;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    background: rgb(242, 88, 34);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .watch_video {
-  padding-top: 15px;
-  padding-bottom: 16px;
-  padding-left: 212px;
-  font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 212px;
+    font-size: 25px;
 }
 
 .brand {
-  padding-top: 97px;
-  padding-bottom: 96px;
-  padding-left: 59px;
-  padding-right: 375px;
+    padding-top: 97px;
+    padding-bottom: 96px;
+    padding-left: 59px;
+    padding-right: 375px;
 }
 
 .brand_1 {
-  padding-right: 38px;
+    padding-right: 38px;
 }
+
+.brand_2 {}
